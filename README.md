@@ -2,7 +2,7 @@
 
 Fetches your latest tweets
 
-Show your latest tweet or tweets on your website.
+_Show your latest tweet or tweets on your website._
 
 Twitter offers two options to show your twitterfeed on your website:
   
@@ -68,11 +68,11 @@ The widget id you get when creating a widget, see above.
 ### options
 An object literal with several options:
 
-images (boolean): when false, prevents loading images that are not needed (default: false).
+**images** (boolean): when false, prevents loading images that are not needed (default: false).
 
-plaintext (boolean): when false, encodes some entities to make the text safe for HTML (default: false).    
+**plaintext** (boolean): when false, encodes some entities to make the text safe for HTML (default: false).    
 
-hyperlinks (boolean): when true, turns urls and Twitter @usernames into hyperlinks (default: true).
+**hyperlinks** (boolean): when true, turns urls and Twitter @usernames into hyperlinks (default: true).
     
 Example:
 ```javascript
