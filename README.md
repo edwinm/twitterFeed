@@ -6,17 +6,17 @@ Show your latest tweet or tweets on your website.
 
 Twitter offers two options to show your twitterfeed on your website:
   
-#. [Using a Twitter widget](https://dev.twitter.com/web/overview)
-#. [Using the Twitter REST API](https://dev.twitter.com/rest/public)
+1. [Using a Twitter widget](https://dev.twitter.com/web/overview)
+2. [Using the Twitter REST API](https://dev.twitter.com/rest/public)
 
 They are fully supported by Twitter and might be the best solution for you.
 
 Disadvantages are:
 
-#. Limited layout possibilities (widget).
-#. Cookies are send to Twitter, which, without warning, might be illegal in your jurisdiction (widget).
-#. Page load (widget).
-#. Needs server side scripting (api).
+1. Limited layout possibilities (widget).
+2. Cookies are send to Twitter, which, without warning, might be illegal in your jurisdiction (widget).
+3. Page load (widget).
+4. Needs server side scripting (api).
 
 TwitterFeed provides a solution without these disadvantages. It fetches the Twitter widget (without sending
 cookies) and makes the tweets available in JavaScript, to be placed on a webpage the way you want.
