@@ -22,6 +22,8 @@ TwitterFeed provides a solution without these disadvantages. It fetches the Twit
 cookies) and makes the tweets available in JavaScript, to be placed on a webpage the way you want.
 Less than 2kB, twitterFeed is also very lightweight.
 
+TwitterFeed uses unsupported Twitter functionality, so there's no guarantee of continuity.
+
 ## Quickstart
 
 Start by downloading [twitterfeed.js](twitterfeed.js) to you server and including it in your web page.
