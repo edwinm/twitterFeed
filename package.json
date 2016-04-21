@@ -1,0 +1,27 @@
+{
+  "name": "twitterfeed",
+  "version": "1.0.1",
+  "description": "Show your latest tweets on your website",
+  "main": "twitterfeed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwinm/twitterFeed.git"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "Edwin Martin <edwin@bitstorm.org> (http://www.bitstorm.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edwinm/twitterFeed/issues"
+  },
+  "homepage": "https://github.com/edwinm/twitterFeed#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-google-closure-tools-compiler": "^0.1.7"
+  }
+}
