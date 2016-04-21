@@ -1,14 +1,14 @@
 {
-  "name": "twitterfeed",
+  "name": "twitterfetch",
   "version": "1.0.1",
   "description": "Show your latest tweets on your website",
-  "main": "twitterfeed.js",
+  "main": "twitterfetch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edwinm/twitterFeed.git"
+    "url": "git+https://github.com/edwinm/twitterFetch.git"
   },
   "keywords": [
     "twitter"
@@ -16,9 +16,9 @@
   "author": "Edwin Martin <edwin@bitstorm.org> (http://www.bitstorm.org/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/edwinm/twitterFeed/issues"
+    "url": "https://github.com/edwinm/twitterFetch/issues"
   },
-  "homepage": "https://github.com/edwinm/twitterFeed#readme",
+  "homepage": "https://github.com/edwinm/twitterFetch#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",

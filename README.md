@@ -1,10 +1,10 @@
-# twitterFeed
+# twitterFetch
 
 Fetches your latest tweets
 
 _Show your latest tweet or tweets on your website._
 
-Twitter offers two options to show your twitterfeed on your website:
+Twitter offers two options to show your twitterfetch on your website:
   
 1. [Using a Twitter widget](https://dev.twitter.com/web/overview)
 2. [Using the Twitter REST API](https://dev.twitter.com/rest/public)
@@ -18,18 +18,18 @@ Disadvantages are:
 3. Page load (widget).
 4. Needs server side scripting (api).
 
-TwitterFeed provides a solution without these disadvantages. It fetches the Twitter widget (without sending
+TwitterFetch provides a solution without these disadvantages. It fetches the Twitter widget (without sending
 cookies) and makes the tweets available in JavaScript, to be placed on a webpage the way you want.
-Less than 2kB, twitterFeed is also very lightweight.
+Less than 2kB, twitterFetch is also very lightweight.
 
-TwitterFeed uses unsupported Twitter functionality, so there's no guarantee of continuity.
+TwitterFetch uses unsupported Twitter functionality, so there's no guarantee of continuity.
 
 ## Quickstart
 
-Start by downloading [twitterfeed.js](twitterfeed.js) to you server and including it in your web page.
+Start by downloading [twitterfetch.js](twitterfetch.js) to you server and including it in your web page.
 
 ```html
-<script src="twitterfeed.js">
+<script src="twitterfetch.js">
 ```
 
 In your HTML, make sure you have a place to show the tweets:
@@ -38,10 +38,10 @@ In your HTML, make sure you have a place to show the tweets:
 <div id="tweets"></div>
 ```
 
-Now, use twitterFeed to fetch the tweets and show the first one:
+Now, use twitterFetch to fetch the tweets and show the first one:
 
 ```javascript
-twitterFeed.fetch('345615146724495360', {}, function (tweets) {
+twitterFetch.fetch('345615146724495360', {}, function (tweets) {
 	if (!tweets || tweets.length == 0) {
 		return;
 	}
@@ -58,10 +58,10 @@ You'll find data-widget-id="..." with the number you can use.
 
 ## API
 
-The twitterFeed fetch function takes three parameters:
+The twitterFetch fetch function takes three parameters:
 
 ```javascript
-twitterFeed.fetch(widgetId, options, callbackFunction);
+twitterFetch.fetch(widgetId, options, callbackFunction);
 ```
 
 ### widgetId
@@ -89,4 +89,4 @@ The function that is called back with one argument containing an array with twee
 
 ## License
 
-TwitterFeed is  copyright 2016 Edwin Martin and MIT licensed.
+TwitterFetch is  copyright 2016 Edwin Martin and MIT licensed.

@@ -3,12 +3,12 @@ module.exports = function (grunt) {
 		'closurecompiler': {
 			frontend: {
                 files: {
-                    'twitterfeed-min.js': ['twitterfeed.js']
+                    'twitterfetch-min.js': ['twitterfetch.js']
                 }
 			}
 		},
 		'watch': {
-			files: ['twitterfeed.js'],
+			files: ['twitterfetch.js'],
 			tasks: ['closurecompiler']
 		}
 	});

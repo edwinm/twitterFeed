@@ -1,10 +1,10 @@
 /**!
- @preserve twitterFeed 1.0.1
+ @preserve twitterFetch 1.0.1
  @copyright 2016 Edwin Martin
  @see {@link http://www.bitstorm.org/javascript/}
  @license MIT
  */
-var twitterFeed = function () {
+var twitterFetch = function () {
     var _callback, _options;
 
     return {
@@ -13,7 +13,7 @@ var twitterFeed = function () {
             _callback = callback;
             var script = document.createElement("script");
             script.src = "https://cdn.syndication.twimg.com/widgets/timelines/" + widgetId
-                + "?&lang=en&callback=twitterFeed.callback&suppress_response_codes=true&rnd=" + Math.random();
+                + "?&lang=en&callback=twitterFetch.callback&suppress_response_codes=true&rnd=" + Math.random();
             document.head.appendChild(script);
         },
 
