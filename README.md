@@ -2,9 +2,9 @@
 
 Fetches your latest tweets
 
-_Show your latest tweet or tweets on your website._
+_twitterFetch shows your latest tweets on your website._
 
-Twitter offers two options to show your twitterfetch on your website:
+Twitter already offers two options to show your tweets on your website:
   
 1. [Using a Twitter widget](https://dev.twitter.com/web/overview)
 2. [Using the Twitter REST API](https://dev.twitter.com/rest/public)
@@ -85,6 +85,7 @@ Example:
 ```
 
 ### callbackFunction
+
 The function that is called back with one argument containing an array with tweets.
 
 ## License
