@@ -4,6 +4,9 @@ Fetches your latest tweets
 
 _twitterFetch shows your latest tweets on your website._
 
+*Warning: Twitter switched to iframes to embed Twitter widgets and disabled fetching the feed from JavaScript.
+This means twitterFetch is no longer working! This repository is onlu for informational purposes.*
+
 Twitter already offers two options to show your tweets on your website:
   
 1. [Using a Twitter widget](https://dev.twitter.com/web/overview)
